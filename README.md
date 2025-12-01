@@ -1,1 +1,5 @@
-# Benchmarking-neutral-atom-QPUs
+# Benchmarking neutral atom-based quantum processors at scale
+
+In recent years, neutral atom-based quantum computation has been established as a competing alternative for the realization of fault-tolerant quantum computation. However, as with other quantum technologies, various sources of noise limit their performance. With processors continuing to scale up, new techniques are needed to characterize and compare them in order to track their progress. In this work, we present two systematic benchmarks that evaluate these quantum processors at scale. We use the quantum adiabatic algorithm (QAA) and the quantum approximate optimization algorithm (QAOA) to solve maximal independent set (MIS) instances of random unit-disk graphs. These benchmarks are scalable, relying not on prior knowledge of the system's evolution but on the quality of the MIS solutions obtained. We benchmark **quera_aquila** and **pasqal_fresnel** on problem sizes up to *102* and *85* qubits, respectively. Overall, **quera_aquila** performs better on QAOA and QAA instances. Finally, we generate MIS instances of up to 1000 qubits, providing scalable benchmarks for evaluating future, larger processors as they become available.
+
+##
