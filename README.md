@@ -4,6 +4,8 @@ In recent years, neutral atom-based quantum computation has been established as 
 
 **Paper:** [https://arxiv.org/abs/2511.22967](https://arxiv.org/abs/2511.22967)
 
+<img alt="Benchmarking neutral atom QPUs" src="Figures/Figure1_paper.png" width="600"/>
+
 ## Repository Structure and Contents
 
 This repository provides notebooks, scripts, and data relevant to benchmarking experiments for neutral atom quantum processing units (QPUs). Below is an overview of the main files and directories:
